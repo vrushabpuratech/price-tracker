@@ -1,0 +1,10 @@
+to start fast api
+uvicorn main:app --reload
+
+
+to activate .venv
+C:\Users\vrushab\price-tracker\backend>.venv\Scripts\activate
+
+docker compose up -d
+docker compose ps -a
+docker compose logs db --tail=50
